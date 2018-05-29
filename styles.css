@@ -1,4 +1,3 @@
-/************* GENERAL CSS ************/
 
 body {
 	margin: 0px;
@@ -12,13 +11,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #3399FF;
+	color: #1775d4;
 }
 
 a {
 	font-weight: bold;	
 	text-decoration: none;
-	color: #33CCFF;
+	color: #1775d4;
 }
 
 a:hover {
@@ -26,23 +25,26 @@ a:hover {
 	color: #33CCFF;
 }
 
-/************* HEADER STUFF ************/
 
 #header {
 	width: 770px;
 	height: 120px;
 	margin: 0px auto;
 	padding: 10px 0px;
-	background: #FFFBFD url(images/header.jpg);
+	background-image: url("images/header.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 770px 120px;
+	image-orientation: from-image
 }
 
 #header h1 {
 	margin: 0px;
 	padding: 0px 0px 0px 10px;
 	text-align: left;
-	color: #3399FF;
-	font-size: 3em;
-	text-transform: uppercase;
+	color: #000000;
+	text-shadow: 2px 2px #33CCFF;
+	font-size: 5em;
 }
 
 #header h2 {
@@ -104,13 +106,13 @@ a:hover {
 
 #left {
 	float: left;
-	width: 480px;
+	width: 770;
 	padding: 0px 20px 40px 20px;
 }
 
 #right {
 	float: right;
-	width: 210px;
+	width: 0px;
 	padding: 0px 20px 40px 20px;
 	color: #99CCFF;
 }
